@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/sheryjs/dist/Shery.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="home">
+        <div class="nav">
+          <div class="nav-left">
+            <a class="navlink" href="#">Home</a>
+            <a class="navlink" href="#">Pricing</a>
+            <a class="navlink" href="#">Products</a>
+          </div>
+          <a class="navlink logo" href="#">Web Flow</a>
+          <div class="nav-right">
+            <a class="navlink" href="#">Our Journey</a>
+          </div>
+        </div>
+        <div class="hero">
+          <div id="animateOne" class="hero-left">
+            <h5>.01</h5>
+            <h1>Sustainability.</h1>
+            <p>
+              Commited to Sustainability, eco-friendly choices for a better
+              tomorrow.
+            </p>
+            <div class="hero-left-image-wrapper">
+              <img
+                class="hero-left-image"
+                src="./assets/pinkgreenplant.jpg"
+                alt="pinkgreenplant"
+              />
+            </div>
+          </div>
+          <div id="animateOne" class="hero-center">
+            <div class="hero-center-title">
+              <span class="hero-center-text">Ephemeral</span><br />
+              <span class="hero-center-text">Equilibrium.</span>
+            </div>
+            <img
+              class="hero-center-image"
+              src="./assets/pinkplant.jpg"
+              alt="pinkplant"
+            />
+            <p class="hero-center-content">
+              Commited to Sustainability, eco- friendly choices for a better
+              tomorrow.
+            </p>
+          </div>
+          <div id="animateOne" class="hero-right">
+            <div class="hero-right-icon-container">
+              <i class="ri-arrow-down-line hero-right-icon"></i>
+            </div>
+            <h3 class="hero-right-text">visit our gallery.</h3>
+          </div>
+        </div>
+      </div>
+      <div class="ourmotive">
+        <span class="ourmotive-heading">Our Motive</span>
+        <div class="ourmotive-content-container">
+          <p class="ourmotive-content">
+            At WorkFlow, we are deeply committed to Sustainability. We believe
+            in a greener,more sustainable future,
+            <span class="ourmotive-image-one"> </span>
+            and it's at the core of everything we do. Our practices are designed
+            with environmental
+            <span class="ourmotive-image-two"></span>
+            responsibility in mind, from sourcing eco-friendly
+            <span class="ourmotive-image-three"></span>
+            materials to reducing our carbon footprint
+          </p>
+        </div>
+      </div>
+      <div class="pictures">
+        <div class="pictures-left">
+          <div class="pictures-left-image">
+            <img src="/assets/sea.jpg" alt="sea" />
+          </div>
+          <div class="pictures-left-content">
+            <h2>Synergy.</h2>
+            <p>
+              Committed to Sustainability, eco-friendly choice for a better
+              tomorrow
+            </p>
+          </div>
+        </div>
+        <div class="pictures-right">
+          <div class="pictures-right-image">
+            <img src="/assets/cloud.jpg" alt="cloud" />
+          </div>
+          <div class="pictures-right-content">
+            <h2>Harmony.</h2>
+            <p>
+              Committed to Sustainability, eco-friendly choice for a better
+              tomorrow
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="banner">
+        <div class="banner-image-container">
+          <img src="/assets/bottle.jpg" alt="" />
+        </div>
+        <div class="banner-content">
+          <h2>Biodegradable Packaging</h2>
+          <p>
+            Committed to Sustainability, eco-friendly choices for a better
+            tomorrow
+          </p>
+        </div>
+      </div>
+      <div class="future">
+        <video autoplay muted loop src="/assets/back.mp4"></video>
+        <div class="future-content">
+          <h1>think of future.</h1>
+          <button>join the movement</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- locomotive scroll -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <!-- GSAP -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Shery.js -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/sheryjs/dist/Shery.js"
+    ></script>
+    <!-- Recommended -->
+    <!-- Scroll Trigger is needed for Scroll Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- Three.js is needed for 3d Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+
+    <!-- ControlKit is needed for Debug Panel -->
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
